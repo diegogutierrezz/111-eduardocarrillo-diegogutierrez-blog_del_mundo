@@ -1,9 +1,10 @@
 body{
-    background: #000000;
-    color: #ffffff;
+    background: #f1eded;
+    color: #131212;
 }
 
 article{
+    background-color: #0c0c0c;
     color: rgb(245, 245, 247);
 }
 
