@@ -1,14 +1,13 @@
 body{
-    background: #f1eded;
-    color: #131212;
+    background-color: black;
+    color: #fff;
 }
 
 article{
-    background-color: #0c0c0c;
-    color: rgb(245, 245, 247);
+    background-color: rgb(44, 43, 43);
 }
 
-nav>ul>li{
+.resaltado {
     color:yellow
 }
 
