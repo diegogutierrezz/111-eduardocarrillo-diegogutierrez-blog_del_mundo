@@ -5,13 +5,121 @@ body{
 
 article{
     background-color: rgb(44, 43, 43);
+    border-bottom: 1px solid white;
+    padding: 1.5rem;
 }
 
 .resaltado {
     color:yellow
 }
 
+nav ul li{
+    list-style: none;
+}
+
+
 #titulo-del-blog{
     text-align: center;
     font-size: 3rem;
 }
+
+.ilustracion{
+    border: 4px solid white;
+    display: inline-block;
+}
+
+#footer_blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+#footer_blog div:nth-child(2){
+    font-size: 0.9rem;
+}
+
+.caption{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav{
+    font-size: 1.3rem;
+    border-bottom: 5px solid white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 0.5rem;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+
+}
+article header hgroup h2{
+    display: flex;
+    align-items: center;
+}
+article header hgroup{
+    display: flex;
+    justify-content: space-between;
+}
+article header hgroup h2 img{
+    margin-right: 1rem;
+}
+
+section{
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   gap: 3rem;
+}
+
+section header{
+    grid-column: span 12;
+}
+
+section main{
+    grid-column: span 8;
+}
+section aside{
+    grid-column: span 4;
+}
+section footer{
+    grid-column: span 12;
+}
+aside h2{
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  aside div{
+     display: flex;
+     align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding: 0.6rem;
+        border-bottom: 1px dashed #fff;
+  }
+  aside div:nth-child(2n){
+     background-color: rgb(44, 43, 43);
+     display: flex;
+  
+  }
+  aside div img{
+     background-color: #fff;
+     padding: 0.5rem;
+     border-radius: 50%;
+  }
